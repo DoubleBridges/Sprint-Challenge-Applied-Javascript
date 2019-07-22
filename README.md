@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Document Object Model. It's the tree like data structure that the browser reads in order to display viewporet contents
+
 2. What is an event?
+
+Something that can happen to, and be listened for, an object or node on the DOM
 
 3. What is an event listener?
 
+An instruction in your code to watch for specific events on specific items in order to run another set of instructions
+
 4. Why would we convert a NodeList into an Array?
 
+In order to use Array.prototype methods on said Nodelist, other than .forEach(), which is built in.
+
 5. What is a component?
+
+A reusable piece of logic. It could be as simple as an element style or as complicated as a full dynamic form.
 
 ### Git Set up
 
@@ -49,13 +59,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled it. DO NOT add any code to the HTML file itself.
+* [x] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled it. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
+* [x] Following the instructions in the `Header/index.js` file, create the Header component. 
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [x] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [x] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
 ## Stretch Problems
 

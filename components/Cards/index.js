@@ -29,6 +29,8 @@ function articlesComponent() {
             }
         })
 
+        .catch(err => console.log(err))
+
 }
 
 function createArticle(articleObj) {
@@ -53,6 +55,7 @@ function createArticle(articleObj) {
     author.setAttribute('class', 'author')
     imgContainer.setAttribute('class', 'img-container')
     authorPhoto.setAttribute('src', `${articleObj.authorPhoto}`)
+
 
     headline.textContent = articleObj.headline
     authorName.textContent = articleObj.authorName
